@@ -1,11 +1,11 @@
 #include<stdio.h>
 void main()
 {
-    int a,b,i,temp,num,rem;  
+    int x,y,i,temp,num,rem;  
     printf("enter the limits");
-    scanf("%d %d",&a,&b);
-     printf("Armstrong numbers between %d an %d are: ", a, b);
-    for(i=a+1;i<b;++i)
+    scanf("%d %d",&x,&y);
+     printf("Armstrong numbers between %d an %d are: ", x,y);
+    for(i=x+1;i<y;++i)
     {
         temp=i;
         num=0;
